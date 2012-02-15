@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36670F6814D03B8200F689F7 /* OpenNI.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BBB0A114CEE19300250B98 /* OpenNI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3688A9EC14DE90C6002F5A31 /* Point3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 3688A9EA14DE90C6002F5A31 /* Point3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3688A9ED14DE90C6002F5A31 /* Point3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 3688A9EB14DE90C6002F5A31 /* Point3D.m */; };
+		36BBB09514CEE19300250B98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB09414CEE19300250B98 /* Cocoa.framework */; };
+		36BBB09F14CEE19300250B98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36BBB09D14CEE19300250B98 /* InfoPlist.strings */; };
+		36BBB0A314CEE19300250B98 /* OpenNI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36BBB0A214CEE19300250B98 /* OpenNI.mm */; };
+		36BBB0C614CEE25500250B98 /* libnimCodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0C014CEE25500250B98 /* libnimCodecs.dylib */; };
+		36BBB0C714CEE25500250B98 /* libnimMockNodes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0C114CEE25500250B98 /* libnimMockNodes.dylib */; };
+		36BBB0C814CEE25500250B98 /* libnimRecorder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0C214CEE25500250B98 /* libnimRecorder.dylib */; };
+		36BBB0C914CEE25500250B98 /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0C314CEE25500250B98 /* libOpenNI.dylib */; };
+		36BBB0CA14CEE25500250B98 /* libXnVFeatures_1_4_1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0C414CEE25500250B98 /* libXnVFeatures_1_4_1.dylib */; };
+		36BBB0CB14CEE25500250B98 /* libXnVHandGenerator_1_4_1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0C514CEE25500250B98 /* libXnVHandGenerator_1_4_1.dylib */; };
+		36BBB0CE14CEE32600250B98 /* OpenNIPrivateHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BBB0CD14CEE32600250B98 /* OpenNIPrivateHeaders.h */; };
+		36BBB0D814CEEFAB00250B98 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB0AF14CEE1B500250B98 /* SenTestingKit.framework */; };
+		36BBB0D914CEEFAB00250B98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB09414CEE19300250B98 /* Cocoa.framework */; };
+		36BBB0DF14CEEFAB00250B98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36BBB0DD14CEEFAB00250B98 /* InfoPlist.strings */; };
+		36BBB0E214CEEFAB00250B98 /* OpenNITests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36BBB0E114CEEFAB00250B98 /* OpenNITests.mm */; };
+		36BBB0E714CEF00300250B98 /* OpenNI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BBB09114CEE19300250B98 /* OpenNI.framework */; };
+		36BBB0F114CEFBE100250B98 /* Config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 36BBB0F014CEFBE100250B98 /* Config.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3688A9EA14DE90C6002F5A31 /* Point3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point3D.h; sourceTree = "<group>"; };
+		3688A9EB14DE90C6002F5A31 /* Point3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point3D.m; sourceTree = "<group>"; };
+		36BBB09114CEE19300250B98 /* OpenNI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenNI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BBB09414CEE19300250B98 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		36BBB09714CEE19300250B98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		36BBB09814CEE19300250B98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36BBB09914CEE19300250B98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36BBB09C14CEE19300250B98 /* OpenNI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenNI-Info.plist"; sourceTree = "<group>"; };
+		36BBB09E14CEE19300250B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36BBB0A014CEE19300250B98 /* OpenNI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenNI-Prefix.pch"; sourceTree = "<group>"; };
+		36BBB0A114CEE19300250B98 /* OpenNI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenNI.h; sourceTree = "<group>"; };
+		36BBB0A214CEE19300250B98 /* OpenNI.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenNI.mm; sourceTree = "<group>"; };
+		36BBB0AF14CEE1B500250B98 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		36BBB0C014CEE25500250B98 /* libnimCodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimCodecs.dylib; sourceTree = "<group>"; };
+		36BBB0C114CEE25500250B98 /* libnimMockNodes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimMockNodes.dylib; sourceTree = "<group>"; };
+		36BBB0C214CEE25500250B98 /* libnimRecorder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libnimRecorder.dylib; sourceTree = "<group>"; };
+		36BBB0C314CEE25500250B98 /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libOpenNI.dylib; sourceTree = "<group>"; };
+		36BBB0C414CEE25500250B98 /* libXnVFeatures_1_4_1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libXnVFeatures_1_4_1.dylib; sourceTree = "<group>"; };
+		36BBB0C514CEE25500250B98 /* libXnVHandGenerator_1_4_1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libXnVHandGenerator_1_4_1.dylib; sourceTree = "<group>"; };
+		36BBB0CD14CEE32600250B98 /* OpenNIPrivateHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenNIPrivateHeaders.h; sourceTree = "<group>"; };
+		36BBB0D714CEEFAB00250B98 /* OpenNITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenNITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BBB0DC14CEEFAB00250B98 /* OpenNITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenNITests-Info.plist"; sourceTree = "<group>"; };
+		36BBB0DE14CEEFAB00250B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36BBB0E014CEEFAB00250B98 /* OpenNITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenNITests.h; sourceTree = "<group>"; };
+		36BBB0E114CEEFAB00250B98 /* OpenNITests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenNITests.mm; sourceTree = "<group>"; };
+		36BBB0E314CEEFAB00250B98 /* OpenNITests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenNITests-Prefix.pch"; sourceTree = "<group>"; };
+		36BBB0F014CEFBE100250B98 /* Config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Config.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36BBB08D14CEE19300250B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BBB09514CEE19300250B98 /* Cocoa.framework in Frameworks */,
+				36BBB0C614CEE25500250B98 /* libnimCodecs.dylib in Frameworks */,
+				36BBB0C714CEE25500250B98 /* libnimMockNodes.dylib in Frameworks */,
+				36BBB0C814CEE25500250B98 /* libnimRecorder.dylib in Frameworks */,
+				36BBB0C914CEE25500250B98 /* libOpenNI.dylib in Frameworks */,
+				36BBB0CA14CEE25500250B98 /* libXnVFeatures_1_4_1.dylib in Frameworks */,
+				36BBB0CB14CEE25500250B98 /* libXnVHandGenerator_1_4_1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BBB0D314CEEFAB00250B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BBB0D914CEEFAB00250B98 /* Cocoa.framework in Frameworks */,
+				36BBB0E714CEF00300250B98 /* OpenNI.framework in Frameworks */,
+				36BBB0D814CEEFAB00250B98 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36BBB08514CEE19300250B98 = {
+			isa = PBXGroup;
+			children = (
+				36BBB0BF14CEE24B00250B98 /* OpenNI Libraries */,
+				36BBB09A14CEE19300250B98 /* OpenNI */,
+				36BBB0DA14CEEFAB00250B98 /* OpenNITests */,
+				36BBB09314CEE19300250B98 /* Frameworks */,
+				36BBB09214CEE19300250B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36BBB09214CEE19300250B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB09114CEE19300250B98 /* OpenNI.framework */,
+				36BBB0D714CEEFAB00250B98 /* OpenNITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36BBB09314CEE19300250B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB09414CEE19300250B98 /* Cocoa.framework */,
+				36BBB0AF14CEE1B500250B98 /* SenTestingKit.framework */,
+				36BBB09614CEE19300250B98 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36BBB09614CEE19300250B98 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB09714CEE19300250B98 /* AppKit.framework */,
+				36BBB09814CEE19300250B98 /* CoreData.framework */,
+				36BBB09914CEE19300250B98 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		36BBB09A14CEE19300250B98 /* OpenNI */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB0CC14CEE2AB00250B98 /* Public Headers */,
+				36BBB0CD14CEE32600250B98 /* OpenNIPrivateHeaders.h */,
+				36BBB0A214CEE19300250B98 /* OpenNI.mm */,
+				3688A9EB14DE90C6002F5A31 /* Point3D.m */,
+				36BBB0F014CEFBE100250B98 /* Config.xml */,
+				36BBB09B14CEE19300250B98 /* Supporting Files */,
+			);
+			path = OpenNI;
+			sourceTree = "<group>";
+		};
+		36BBB09B14CEE19300250B98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB09C14CEE19300250B98 /* OpenNI-Info.plist */,
+				36BBB09D14CEE19300250B98 /* InfoPlist.strings */,
+				36BBB0A014CEE19300250B98 /* OpenNI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36BBB0BF14CEE24B00250B98 /* OpenNI Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB0C014CEE25500250B98 /* libnimCodecs.dylib */,
+				36BBB0C114CEE25500250B98 /* libnimMockNodes.dylib */,
+				36BBB0C214CEE25500250B98 /* libnimRecorder.dylib */,
+				36BBB0C314CEE25500250B98 /* libOpenNI.dylib */,
+				36BBB0C414CEE25500250B98 /* libXnVFeatures_1_4_1.dylib */,
+				36BBB0C514CEE25500250B98 /* libXnVHandGenerator_1_4_1.dylib */,
+			);
+			name = "OpenNI Libraries";
+			sourceTree = "<group>";
+		};
+		36BBB0CC14CEE2AB00250B98 /* Public Headers */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB0A114CEE19300250B98 /* OpenNI.h */,
+				3688A9EA14DE90C6002F5A31 /* Point3D.h */,
+			);
+			name = "Public Headers";
+			sourceTree = "<group>";
+		};
+		36BBB0DA14CEEFAB00250B98 /* OpenNITests */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB0E014CEEFAB00250B98 /* OpenNITests.h */,
+				36BBB0E114CEEFAB00250B98 /* OpenNITests.mm */,
+				36BBB0DB14CEEFAB00250B98 /* Supporting Files */,
+			);
+			path = OpenNITests;
+			sourceTree = "<group>";
+		};
+		36BBB0DB14CEEFAB00250B98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36BBB0DC14CEEFAB00250B98 /* OpenNITests-Info.plist */,
+				36BBB0DD14CEEFAB00250B98 /* InfoPlist.strings */,
+				36BBB0E314CEEFAB00250B98 /* OpenNITests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36BBB08E14CEE19300250B98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36670F6814D03B8200F689F7 /* OpenNI.h in Headers */,
+				3688A9EC14DE90C6002F5A31 /* Point3D.h in Headers */,
+				36BBB0CE14CEE32600250B98 /* OpenNIPrivateHeaders.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36BBB09014CEE19300250B98 /* OpenNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BBB0A614CEE19300250B98 /* Build configuration list for PBXNativeTarget "OpenNI" */;
+			buildPhases = (
+				36BBB08C14CEE19300250B98 /* Sources */,
+				36BBB08D14CEE19300250B98 /* Frameworks */,
+				36BBB08E14CEE19300250B98 /* Headers */,
+				36BBB08F14CEE19300250B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenNI;
+			productName = OpenNI;
+			productReference = 36BBB09114CEE19300250B98 /* OpenNI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36BBB0D614CEEFAB00250B98 /* OpenNITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36BBB0E414CEEFAB00250B98 /* Build configuration list for PBXNativeTarget "OpenNITests" */;
+			buildPhases = (
+				36BBB0D214CEEFAB00250B98 /* Sources */,
+				36BBB0D314CEEFAB00250B98 /* Frameworks */,
+				36BBB0D414CEEFAB00250B98 /* Resources */,
+				36BBB0D514CEEFAB00250B98 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenNITests;
+			productName = OpenNITests;
+			productReference = 36BBB0D714CEEFAB00250B98 /* OpenNITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36BBB08714CEE19300250B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = LoFT;
+			};
+			buildConfigurationList = 36BBB08A14CEE19300250B98 /* Build configuration list for PBXProject "OpenNI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36BBB08514CEE19300250B98;
+			productRefGroup = 36BBB09214CEE19300250B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36BBB09014CEE19300250B98 /* OpenNI */,
+				36BBB0D614CEEFAB00250B98 /* OpenNITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36BBB08F14CEE19300250B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BBB09F14CEE19300250B98 /* InfoPlist.strings in Resources */,
+				36BBB0F114CEFBE100250B98 /* Config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BBB0D414CEEFAB00250B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BBB0DF14CEEFAB00250B98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BBB0D514CEEFAB00250B98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36BBB08C14CEE19300250B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BBB0A314CEE19300250B98 /* OpenNI.mm in Sources */,
+				3688A9ED14DE90C6002F5A31 /* Point3D.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BBB0D214CEEFAB00250B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BBB0E214CEEFAB00250B98 /* OpenNITests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36BBB09D14CEE19300250B98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36BBB09E14CEE19300250B98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36BBB0DD14CEEFAB00250B98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36BBB0DE14CEEFAB00250B98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36BBB0A414CEE19300250B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/nite/**",
+					"/usr/include/ni/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		36BBB0A514CEE19300250B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/include/nite/**",
+					"/usr/include/ni/**",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36BBB0A714CEE19300250B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenNI/OpenNI-Prefix.pch";
+				INFOPLIST_FILE = "OpenNI/OpenNI-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		36BBB0A814CEE19300250B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenNI/OpenNI-Prefix.pch";
+				INFOPLIST_FILE = "OpenNI/OpenNI-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		36BBB0E514CEEFAB00250B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenNITests/OpenNITests-Prefix.pch";
+				INFOPLIST_FILE = "OpenNITests/OpenNITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		36BBB0E614CEEFAB00250B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenNITests/OpenNITests-Prefix.pch";
+				INFOPLIST_FILE = "OpenNITests/OpenNITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36BBB08A14CEE19300250B98 /* Build configuration list for PBXProject "OpenNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BBB0A414CEE19300250B98 /* Debug */,
+				36BBB0A514CEE19300250B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BBB0A614CEE19300250B98 /* Build configuration list for PBXNativeTarget "OpenNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BBB0A714CEE19300250B98 /* Debug */,
+				36BBB0A814CEE19300250B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36BBB0E414CEEFAB00250B98 /* Build configuration list for PBXNativeTarget "OpenNITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36BBB0E514CEEFAB00250B98 /* Debug */,
+				36BBB0E614CEEFAB00250B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36BBB08714CEE19300250B98 /* Project object */;
+}
